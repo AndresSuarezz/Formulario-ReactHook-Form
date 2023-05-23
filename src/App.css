@@ -1,0 +1,74 @@
+body {
+  font-family: sans-serif;
+}
+
+.contenedor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 90vh;
+  width: 100%;
+}
+
+.titulo {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.contenedor-formulario {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-self: center;
+  column-gap: 10rem;
+}
+
+.formulario {
+  width: 100%;
+  padding: 20px;
+}
+
+.formulario-campo {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.formulario-checkBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.campo {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+.campo-select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+.button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #1e90ff;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.informacion {
+  font-size: 1.5rem;
+}
